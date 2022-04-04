@@ -5,6 +5,7 @@ import Blogs from "./Components/Blogs/Blogs";
 import Dashboard from "./Components/Dashboard/Dashboard";
 import Home from "./Components/Home/Home";
 import Navbar from "./Components/Navbar/Navbar";
+import NotFound from "./Components/NotFound/NotFound";
 import Review from "./Components/Review/Review";
 
 function App() {
@@ -26,6 +27,9 @@ function App() {
         </Route>
         <Route path="/about" element={<About></About>}>
           Home
+        </Route>
+        <Route path="*" element={<NotFound></NotFound>}>
+          404
         </Route>
       </Routes>
       {/* <Home></Home> */}

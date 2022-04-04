@@ -1,5 +1,4 @@
 import React from "react";
-
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Tesla from "../../Assets/Image/tesla.png";
@@ -24,16 +23,10 @@ const Home = () => {
         </div>
       </div>
       <div className="customer-review">
-        <h1>Customer Reviews</h1>
-        {reviews.map((review) =>
-          reviews.indexOf(review) < 3 ? (
-            <CustomerReview review={review}></CustomerReview>
-          ) : (
-            ""
-          )
-        )}
+        <h1 className="h1-style">Customer Reviews (3)</h1>
+        <CustomerReview reviews={reviews}></CustomerReview>
         <Button variant="outline-secondary">
-          <Link to="/review">View all reviews</Link>{" "}
+          <Link to="/review">View all reviews</Link>
         </Button>
       </div>
     </div>

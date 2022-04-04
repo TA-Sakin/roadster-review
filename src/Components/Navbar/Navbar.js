@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="navbar shadow-sm w-100">
       <div>
-        <Link className="fs-3" to="/">
+        <Link className="fs-3 ms-5" to="/">
           Analyze car
         </Link>
       </div>

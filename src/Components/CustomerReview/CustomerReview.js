@@ -1,13 +1,20 @@
 import React from "react";
+import { CardGroup } from "react-bootstrap";
+import Cards from "../Cards/Cards";
 
-const CustomerReview = ({ review }) => {
+const CustomerReview = ({ reviews, path, img }) => {
   return (
-    <div className="card container">
-      <h3>{review.name}</h3>
-      <h4>{review.title}</h4>
-      <h5>Rating: {review.rating}</h5>
-      <p>Review: {review.review}</p>
-    </div>
+    <CardGroup>
+      {reviews.map((review, index) =>
+        path ? (
+          <Cards rev={review}></Cards>
+        ) : index < 3 ? (
+          <Cards rev={review}></Cards>
+        ) : (
+          ""
+        )
+      )}
+    </CardGroup>
   );
 };
 

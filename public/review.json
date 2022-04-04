@@ -4,6 +4,7 @@
     "name": "Jhon bull",
     "date": "2020-05-21",
     "rating": 4.4,
+    "img": "../../src/Assets/Image/player-1.png",
     "title": "Unparalleled acceleration in this price bracket.",
     "review": "This car is a lot of fun and the torque from the electric engine at any speed is amazing. The negative is obviously its limited ~250 mile range, but as long as you're not going across country this is an amazing car to drive around in. It's novelty is backed up by incredible performance matched only by Lamborghini and similar companies for hundreds of thousands more. A symbol of the future of automotive power and a great car to drive."
   },
@@ -12,6 +13,7 @@
     "name": "Neil Goldburg",
     "date": "2012-07-22",
     "rating": 4.5,
+    "img": "../Assets/Image/player-2.png",
     "title": "Very Fast, No Gas or other Bills!",
     "review": "Great Fun Fast Electric Sports Car! Never worry about gas prices again! Very reliable, just plug it in at night, and you're ready to go again."
   },

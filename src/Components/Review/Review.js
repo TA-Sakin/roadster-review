@@ -5,10 +5,8 @@ import useReview from "../Hooks/useReview";
 const Review = () => {
   const [reviews, setReview] = useReview();
   return (
-    <div>
-      {reviews.map((review) => (
-        <CustomerReview review={review}></CustomerReview>
-      ))}
+    <div className="text-center">
+      <CustomerReview reviews={reviews} path="true"></CustomerReview>
     </div>
   );
 };
