@@ -6,7 +6,7 @@
 }
 .customer-review {
   text-align: center;
-  font-weight: bolder;
+  /* font-weight: bolder; */
 }
 .customer-review button {
   margin: 60px 0;
