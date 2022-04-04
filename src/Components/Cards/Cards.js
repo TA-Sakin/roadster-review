@@ -5,10 +5,10 @@ const Cards = ({ rev }) => {
   const { name, title, img, review, date, rating } = rev;
   return (
     <div className="mx-5 my-4">
-      <Card style={{ width: "21rem", Height: "25rem" }} className="border-0">
+      <Card style={{ width: "21rem", minHeight: "25rem" }}>
         <Card.Img
           variant="top"
-          className="rounded-circle mx-auto"
+          className="rounded-circle mx-auto mt-2"
           style={{ width: "5rem", height: "5rem" }}
           src={img}
         />
@@ -21,8 +21,6 @@ const Cards = ({ rev }) => {
           <Card.Text>Rating: {rating}</Card.Text>
           <small className="text-muted">Reviewed on {date}</small>
         </Card.Body>
-        {/* <Card.Footer> */}
-        {/* </Card.Footer> */}
       </Card>
     </div>
   );

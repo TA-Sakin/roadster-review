@@ -1,11 +1,9 @@
 .navbar {
   height: 80px;
   background: white;
-  /* align-items: center;
-  justify-content: center;
-  display: flex; */
   text-align: center;
   top: 0;
+  z-index: 2;
 }
 #navbar-logo {
   margin-left: 100px;

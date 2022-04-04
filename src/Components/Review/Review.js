@@ -6,7 +6,7 @@ const Review = () => {
   const [reviews, setReview] = useReview();
   return (
     <div className="text-center">
-      <h1 className="mt-5 review-header ">All reviews on Tesla Roadster</h1>
+      <h1 className="mt-5 review-header ">What Tesla Roadster users say!</h1>
       <CustomerReview reviews={reviews} path="true"></CustomerReview>
     </div>
   );
