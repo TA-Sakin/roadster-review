@@ -1,20 +1,21 @@
-.navbar {
+.nav {
   height: 80px;
   background: white;
-  text-align: center;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
   top: 0;
   z-index: 2;
 }
-#navbar-logo {
-  margin-left: 100px;
-}
-.navbar a {
+
+.nav a {
   font-size: 18px;
   margin: 0 20px;
   text-decoration: none;
   color: black;
   font-weight: 500;
 }
-.navbar a:hover {
+.nav a:hover {
   color: rgb(174, 168, 158);
 }

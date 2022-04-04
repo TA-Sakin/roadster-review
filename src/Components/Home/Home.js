@@ -1,8 +1,8 @@
 import React from "react";
 import { Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import Tesla from "../../Assets/Image/tesla.png";
 import CustomerReview from "../CustomerReview/CustomerReview";
+import CustomLink from "../CustomLink/CustomLink";
 import useReview from "../Hooks/useReview";
 import "./Home.css";
 const Home = () => {
@@ -26,9 +26,9 @@ const Home = () => {
         <h1 className="h1-style">Customer Reviews(3)</h1>
         <CustomerReview reviews={reviews}></CustomerReview>
 
-        <Link to="/review">
+        <CustomLink to="/review">
           <Button variant="outline-secondary">View all reviews</Button>
-        </Link>
+        </CustomLink>
       </div>
     </div>
   );

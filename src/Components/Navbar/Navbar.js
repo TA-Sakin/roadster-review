@@ -1,21 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import CustomLink from "../CustomLink/CustomLink";
+
 import "./Navbar.css";
 const Navbar = () => {
   return (
-    <div className="navbar shadow-sm w-100 position-sticky">
-      <div>
-        <Link id="navbar-logo" className=" text-secondary fs-3" to="/">
-          Roadster-Review
-        </Link>
-      </div>
-      <div className="w-75">
-        <Link to="/">Home</Link>
-        <Link to="/review">Review</Link>
-        <Link to="/dashboard">Dashboard</Link>
-        <Link to="/blogs">Blogs</Link>
-        <Link to="/about">About</Link>
-      </div>
+    <div className="nav shadow-sm position-sticky">
+      <CustomLink to="/">Home</CustomLink>
+      <CustomLink to="/review">Review</CustomLink>
+      <CustomLink to="/dashboard">Dashboard</CustomLink>
+      <CustomLink to="/blogs">Blogs</CustomLink>
+      <CustomLink to="/about">About</CustomLink>
     </div>
   );
 };
