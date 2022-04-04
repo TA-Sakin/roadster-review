@@ -4,8 +4,8 @@ import "./Cards.css";
 const Cards = ({ rev }) => {
   const { name, title, img, review, date, rating } = rev;
   return (
-    <div style={{ width: "21rem" }} className="mx-5 my-5">
-      <Card className="border-0">
+    <div className="mx-5 my-4">
+      <Card style={{ width: "21rem", Height: "25rem" }} className="border-0">
         <Card.Img
           variant="top"
           className="rounded-circle mx-auto"

@@ -32,7 +32,6 @@ function App() {
           404
         </Route>
       </Routes>
-      {/* <Home></Home> */}
     </div>
   );
 }

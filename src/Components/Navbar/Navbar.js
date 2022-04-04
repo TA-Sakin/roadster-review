@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 const Navbar = () => {
   return (
-    <div className="navbar shadow-sm w-100">
+    <div className="navbar shadow-sm w-100 position-sticky">
       <div>
-        <Link className="fs-3 ms-5" to="/">
-          Analyze car
+        <Link id="navbar-logo" className=" text-secondary fs-3" to="/">
+          Roadster-Review
         </Link>
       </div>
       <div className="w-75">

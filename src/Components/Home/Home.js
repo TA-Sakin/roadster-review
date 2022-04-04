@@ -23,11 +23,12 @@ const Home = () => {
         </div>
       </div>
       <div className="customer-review">
-        <h1 className="h1-style">Customer Reviews (3)</h1>
+        <h1 className="h1-style">Customer Reviews(3)</h1>
         <CustomerReview reviews={reviews}></CustomerReview>
-        <Button variant="outline-secondary">
-          <Link to="/review">View all reviews</Link>
-        </Button>
+
+        <Link to="/review">
+          <Button variant="outline-secondary">View all reviews</Button>
+        </Link>
       </div>
     </div>
   );

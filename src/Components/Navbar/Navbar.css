@@ -1,12 +1,14 @@
 .navbar {
   height: 80px;
-  /* box-shadow: 10px gray; */
-  align-items: center;
+  background: white;
+  /* align-items: center;
   justify-content: center;
-  display: flex;
+  display: flex; */
   text-align: center;
-  position: sticky;
   top: 0;
+}
+#navbar-logo {
+  margin-left: 100px;
 }
 .navbar a {
   font-size: 18px;
