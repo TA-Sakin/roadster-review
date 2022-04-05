@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 import Tesla from "../../Assets/Image/tesla.png";
 import CustomerReview from "../CustomerReview/CustomerReview";
 import CustomLink from "../CustomLink/CustomLink";
-import useReview from "../Hooks/useReview";
+import useReview from "../../Hooks/useReview";
 import "./Home.css";
 const Home = () => {
   const [reviews, setReview] = useReview();

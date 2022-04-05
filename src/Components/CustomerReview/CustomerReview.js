@@ -2,7 +2,7 @@ import React from "react";
 import { CardGroup } from "react-bootstrap";
 import Cards from "../Cards/Cards";
 
-const CustomerReview = ({ reviews, path, img }) => {
+const CustomerReview = ({ reviews, path }) => {
   return (
     <div className="container my-5">
       <CardGroup>

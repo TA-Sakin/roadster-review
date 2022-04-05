@@ -1,6 +1,7 @@
 import React from "react";
 import CustomerReview from "../CustomerReview/CustomerReview";
-import useReview from "../Hooks/useReview";
+import useReview from "../../Hooks/useReview";
+
 import "./Review.css";
 const Review = () => {
   const [reviews, setReview] = useReview();
